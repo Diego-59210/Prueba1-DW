@@ -1,0 +1,45 @@
+.hero 
+{
+  height: 100vh;
+  background: linear-gradient(to right, #2d0a66, #7b56d9);
+}
+
+.hero h1 
+{
+  font-size: 4rem;
+}
+
+.hero p{
+  font-size: 2rem;
+}
+
+.card img 
+{
+  height: 200px;
+  object-fit: cover;
+}
+
+#intro
+{
+  background: linear-gradient(to right, #97dae2, #5383f3);
+}
+
+#projects
+{
+  background: linear-gradient(to left, #ad97e2, #f3d053);
+}
+
+#contact
+{
+  background: linear-gradient(to left, #e29797, #53f3e6);
+}
+
+button
+{
+  font-style: italic;
+}
+footer
+{
+  font-style: italic;
+  background-color: grey;
+}
