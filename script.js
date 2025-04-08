@@ -16,6 +16,7 @@ backToTop.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
+
 // Obtener el elemento "form" de la página.
 const form = document.querySelector("form");
 

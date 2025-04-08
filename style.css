@@ -1,4 +1,4 @@
-/* Manipular la clase hero y sus distintos elementos*/
+/* Manipular la clase hero y sus distintos atributos*/
 .hero 
 {
   height: 100vh;
@@ -24,7 +24,7 @@
 /* Manipular el fondo del elemento con el id "intro" */
 #intro
 {
-  background: linear-gradient(to right, #b8eff5, #5383f3);
+  background: linear-gradient(to right, #b8eff5, #457cfc);
 }
 
 /* Manipular el fondo del elemento con el id "projects" */
@@ -49,5 +49,5 @@ button
 footer
 {
   font-style: italic;
-  background-color: grey;
+  background: linear-gradient(to top, #505050, #000000);
 }
