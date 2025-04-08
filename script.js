@@ -34,5 +34,5 @@ form.addEventListener("submit", function (e) {
   console.log("Mensaje:", message);
 
   // Feedback de alerta para el usuario.
-  alert('¡Gracias, ${name}! Tu mensaje ha sido enviado.');
+  alert("¡Gracias, " + name + "! Tu mensaje ha sido enviado.");
 });
