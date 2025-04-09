@@ -1,4 +1,4 @@
-// Obtener la referencia del botón backToTop por su ID.
+// Obtener la referencia del botón "backToTop" por su ID.
 const backToTop = document.getElementById('backToTop');
 
 // Escuchar el evento de "scroll" en la ventana.

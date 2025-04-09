@@ -12,8 +12,6 @@
   <!-- Referencia de CSS Personal -->
   <link rel="stylesheet" href="style.css" />
 
-  <!-- Botón para volver al inicio de la página -->
-  <button id="backToTop" class="btn btn-primary fs-4 px-4 py-2" style="position:fixed; bottom:20px; right:20px; display:none;">↑</button>
 </head>
 
 <body>
@@ -35,7 +33,7 @@
     </div>
   </nav>
 
-  <!-- Sección principal -->
+  <!-- Sección principal "hero" -->
   <section class="hero d-flex align-items-center text-center text-white">
     <div class="container">
       <h1 class="display-4"><b>Hola, soy Diego Martínez</b></h1>
@@ -49,22 +47,25 @@
       <h2 class="text-center mb-5">Introducción</h2>
       <div class="row align-items-center">
         <div class="col-md-4 text-center mb-4 mb-md-0">
-          <img src="https://placehold.co/250x250" alt="Profile Picture" class="rounded-circle img-fluid shadow"
+          <img src="assets/images/profile.png" alt="Profile Picture" class="rounded-circle img-fluid shadow"
             style="max-width: 250px;">
         </div>
         <div class="col-md-8">
-          <p>Mi nombre es <strong>Diego Martínez</strong>, un <strong>Desarrollador de Videojuegos</strong> de la Región
-            de Valparaíso, Chile. Tengo 3 años de experiencia desarrollando experiencias interactivas utilizando los
-            motores más usados en la industria (Unity y Unreal Engine).</p>
-          <p>Mis capacidades incluyen:</p>
-            <!-- Implementación de una lista no ordenada. -->
-            <ul>
-              <li>Programación en C#</li>
-              <li>Programación con Blueprints</li>
-              <li>Diseño de Niveles</li>
-              <li>Modelado 3D</li>
-              <li>Animación</li>
-            </ul>
+          <!-- Descripción personal. -->
+          <p>Mi nombre es <strong>Diego Martínez</strong>, soy un <strong>Desarrollador de Videojuegos</strong> de la
+            región de Valparaíso y actualmente estoy cursando mi 4to año de la carrera de Desarrollo de Videojuegos y
+            Realidad Virtual en la PUCV. Tengo 3 años de experiencia desarrollando experiencias interactivas en varios proyectos
+            universitarios, trabajando principalmente en solitario, pero también colaborando con otros
+            desarrolladores en algunas ocasiones.</p>
+          <p>Mis principales capacidades como desarrollador incluyen:</p>
+          <!-- Implementación de una lista no ordenada. -->
+          <ul>
+            <li>Programación en C#</li>
+            <li>Programación con Blueprints</li>
+            <li>Diseño de Niveles</li>
+            <li>Modelado 3D</li>
+            <li>Animación 3D</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -78,32 +79,32 @@
         <!-- Proyecto 1: SynthWarrior -->
         <div class="col-md-4">
           <div class="card mb-4">
-            <img src="https://placehold.co/600x400" class="card-img-top" alt="Project Image">
+            <img src="assets/images/project1.png" class="card-img-top" alt="Project Image">
             <div class="card-body">
               <h5 class="card-title">SynthWarrior</h5>
-              <p class="card-text">Rogue-like en primera persona con estilo retro.</p>
+              <p class="card-text">Juego de acción en primera persona en un mundo virtual de neón.</p>
               <a href="#" class="btn btn-primary">Ver proyecto</a>
             </div>
           </div>
         </div>
-        <!-- Proyecto 2 -->
+        <!-- Proyecto 2: Turn Blitz -->
         <div class="col-md-4">
           <div class="card mb-4">
-            <img src="https://placehold.co/600x400" class="card-img-top" alt="Project Image">
+            <img src="assets/images/project2.png" class="card-img-top" alt="Project Image">
             <div class="card-body">
-              <h5 class="card-title">Proyecto 2</h5>
-              <p class="card-text">Descripción.</p>
+              <h5 class="card-title">Turn Blitz</h5>
+              <p class="card-text">Juego de peleas por turnos (1v1) con un estilo visual retro.</p>
               <a href="#" class="btn btn-primary">Ver proyecto</a>
             </div>
           </div>
         </div>
-        <!-- Proyecto 3 -->
+        <!-- Proyecto 3: Grab-Bot -->
         <div class="col-md-4">
           <div class="card mb-4">
-            <img src="https://placehold.co/600x400" class="card-img-top" alt="Project Image">
+            <img src="assets/images/project3.png" class="card-img-top" alt="Project Image">
             <div class="card-body">
-              <h5 class="card-title">Proyecto 3</h5>
-              <p class="card-text">Descripción.</p>
+              <h5 class="card-title">Grab-Bot</h5>
+              <p class="card-text">Juego de puzzles en donde un robot debe mover distintos tipos de bloques.</p>
               <a href="#" class="btn btn-primary">Ver proyecto</a>
             </div>
           </div>
@@ -112,7 +113,7 @@
     </div>
   </section>
 
-  <!-- Sección de información de contacto -->
+  <!-- Sección de formulario de contacto -->
   <section id="contact" class="py-5">
     <div class="container">
       <h2 class="text-center mb-4">Contacto</h2>
@@ -124,22 +125,25 @@
           <input type="email" class="form-control" placeholder="Tu Email" required>
         </div>
         <div class="mb-3">
-          <textarea class="form-control" rows="4" placeholder="Tu mensaje" required></textarea>
+          <textarea class="form-control" rows="4" placeholder="Tu Mensaje" required></textarea>
         </div>
         <button type="submit" class="btn btn-primary w-100">Enviar</button>
       </form>
     </div>
   </section>
 
+  <!-- Botón para volver al inicio de la página -->
+  <button id="backToTop" class="btn btn-primary fs-2 px-4 py-2" style="position:fixed; bottom:20px; right:20px; display:none;">↑</button>
+
   <!-- Footer al final de la página-->
-  <footer class="text-white text-center py-3">
-    <p class="mb-0">&copy; 2025 Diego Martínez. Todos los derechos reservados.</p>
+  <footer>
+    <p>&copy; 2025 Diego Martínez. Todos los derechos reservados.</p>
   </footer>
 
   <!-- Referencia de Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Script JS personal -->
+  <!-- Referencia de script JS -->
   <script src="script.js"></script>
 
 </body>

@@ -1,4 +1,4 @@
-/* Manipular la clase hero y sus distintos atributos*/
+/* Modificar elementos por clase */
 .hero 
 {
   height: 100vh;
@@ -10,44 +10,41 @@
   font-size: 4rem;
 }
 
-.hero p{
+.hero p
+{
   font-size: 2rem;
 }
 
-/* Manipular el elemento img de la clase card */
 .card img 
 {
   height: 200px;
-  object-fit: cover;
+  object-fit: fill;
 }
 
-/* Manipular el fondo del elemento con el id "intro" */
+/* Modificar elementos por su ID */
 #intro
 {
   background: linear-gradient(to right, #b8eff5, #457cfc);
 }
 
-/* Manipular el fondo del elemento con el id "projects" */
 #projects
 {
   background: linear-gradient(to left, #bda1ff, #f8ec7c);
 }
 
-/* Manipular el fondo del elemento con el id "intro" */
 #contact
 {
-  background: linear-gradient(to left, #caf5ae, #f7b054);
+  background: linear-gradient(to left, #E55D87, #5FC3E4);
 }
 
-/* Manipular el button del formulario */
-button
-{
-  font-style: italic;
-}
-
-/* Manipular el footer al final de la página */
+/* Modificar elementos por su etiqueta*/
 footer
 {
+  height: 50px;
+  font-size: medium;
   font-style: italic;
-  background: linear-gradient(to top, #505050, #000000);
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  background: linear-gradient(to top, #2d2d2d, #000000);
 }
